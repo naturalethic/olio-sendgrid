@@ -1,0 +1,7 @@
+{
+  "name": "olio-sendgrid",
+  "version": "0.0.1",
+  "dependencies": {
+    "sendgrid": "^1.7.0"
+  }
+}
