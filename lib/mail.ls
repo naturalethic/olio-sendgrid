@@ -8,6 +8,6 @@ olio.config.mail.disabled ?= false
 olio.config.mail.from     ?= 'olio@example.com'
 olio.config.mail.fromname ?= 'Olio App'
 
-export mail = (options) ->*
+module.exports = (options) ->*
   return if olio.config.mail?disabled
   yield mailer.send-async olio.config.mail{from, fromname} <<< options
